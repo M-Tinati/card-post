@@ -1,0 +1,83 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#9AE0D3 , #35A7A0);
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+
+}
+div.a{
+    width: 800px;
+    height: 500px;
+    background-image: linear-gradient(152deg ,#D3EDFA , #ffff);
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.first ul{
+    list-style-type: none;
+    display: flex;
+    font-family: math;
+
+}
+div.first ul li {
+    padding-left: 25px;
+    padding-top: 20px;
+}
+div.secend ul{
+    list-style-type: none;
+    display: flex; 
+    padding-right: 33px;
+    font-family: fantasy; 
+}
+div.secend ul li{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.svg-one{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+div.m-b{
+    position: absolute;
+    top: 200px;
+    left: 159px;
+}
+h3{
+    font-family: math;
+    font-size: 30px;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+h4{
+    font-family: monospace;
+    font-size: 16px;
+}
+div.s-p svg{
+    position: absolute;
+    left: 487px;
+    top: 160px;
+    z-index: 2;
+}
+div.shape{
+    position: absolute;
+    width: 593px;
+    height: 555px;
+    top: 124px;
+    right: 93px;
+    border-radius: 10000px;
+    filter: blur(40px);
+    background: linear-gradient(210deg, rgba(232, 234, 255, 0.483) 18.98%, rgba(105, 118, 133, 0.7) 85.73%);
+
+}
